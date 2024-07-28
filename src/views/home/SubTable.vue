@@ -29,7 +29,7 @@
                   </select>
                 </div>
                 <div class="col-12 col-md-12" v-if="isShowManualApiUrl">
-                  <input class="form-control" placeholder="自定义后端 API 地址或者你自己的域名示例：http://you-uurl:25500" v-model="api" />
+                  <input class="form-control" placeholder="自定义后端 API 地址或者你自己的域名示例：http://you-url:25500" v-model="api" />
                 </div>
                 <div class="col-8 col-md-10">
                   <label class="form-label" for="remote">远程配置</label>
