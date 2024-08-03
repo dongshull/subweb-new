@@ -3,7 +3,7 @@
     <div class="footer-bottom py-3">
       <div class="container" style="text-align: center">
         <div class="mb-2 mb-md-0">
-          <span>好用的订阅转换页面</span>
+          <span>Designed by DongShu</span>
         </div>
       </div>
     </div>
