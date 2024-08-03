@@ -3,7 +3,7 @@
     <div id="landingHero" class="section-py landing-hero position-relative">
       <div class="container">
         <div class="hero-text-box text-center">
-          <h1 class="text-primary display-6 fw-bold">订阅转换</h1>
+          <h1 class="text-primary display-6 fw-bold">Subweb-new</h1>
           <!-- <h2 class="hero-sub-title h6 mb-4 pb-1">Subconverter 订阅转换支持 Clash QuantumultX Surge 等主流软件</h2> -->
         </div>
         <div class="hero-animation-img">
