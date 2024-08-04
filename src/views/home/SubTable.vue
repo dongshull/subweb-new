@@ -19,9 +19,9 @@
                   </select>
                 </div>
                 <div class="col-7 col-md-6">
-                  <label class="form-label" for="api">后端服务</label>
+                  <label class="form-label" for="api">后端转换服务</label>
                   <select class="form-select" id="api" @change="selectApi">
-                    <option value="">请选择后端</option>
+                    <option value="">请选择后端服务</option>
                     <option v-for="option in apiUrl" :key="option" :value="option.value">
                       {{ option.text }}
                     </option>
@@ -32,7 +32,7 @@
                   <input class="form-control" placeholder="自定义后端 API 地址或者你自己的域名示例：http://you-url:25500" v-model="api" />
                 </div>
                 <div class="col-8 col-md-10">
-                  <label class="form-label" for="remote">远程配置</label>
+                  <label class="form-label" for="remote">远程配置（GitHub）</label>
                   <select class="form-select" id="remote" @change="selectRemoteConfig">
                     <option value="">请选择配置</option>
                     <option v-for="option in remoteConfigOptions" :key="option" :value="option.value">
@@ -43,7 +43,7 @@
                 </div>
                 <div class="col-4 col-md-2">
                   <label class="form-label">&nbsp;</label>
-                  <button type="button" class="btn btn-warning" @click="showMoreConfig">参数</button>
+                  <button type="button" class="btn btn-warning" @click="showMoreConfig">高级设置</button>
                 </div>
                 <div class="col-12 col-md-12" v-if="isShowRemoteConfig">
                   <input class="form-control" placeholder="自定义远程配置地址：" v-model="remoteConfig" />
