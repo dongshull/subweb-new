@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 env:
-  PROJECT: subweb-huajuan
+  PROJECT: subweb-new
 
 jobs:
   build:
