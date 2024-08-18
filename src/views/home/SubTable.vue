@@ -118,8 +118,8 @@ export default {
     const DEFAULT_MORECONFIG = {
       include: '',
       exclude: '',
-      emoji: true,
-      udp: true,
+      emoji: false,
+      udp: false,
       sort: false,
       scv: false,
       list: false,
